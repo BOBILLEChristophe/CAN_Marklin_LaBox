@@ -1,6 +1,6 @@
 
 /*
-  CanMsg.h
+  CanMarklin.h
 
   Christophe Bobille - Locoduino
 
