@@ -61,20 +61,20 @@ void loop() {
   laBox.setPower(on);
   delay(1000);
 
-  // Test des differentes fonctions du decodeur
-  // for (fnIdx = 0; fnIdx < 28; fnIdx++) {
-  //   // Activation
-  //   Serial.printf("Fonction %d -> on\n", fnIdx);
-  //   loco->fn[fnIdx] = on;
-  //   laBox.setFunction(loco, fnIdx);
-  //   delay(1000);
+  //Test des differentes fonctions du decodeur
+  for (fnIdx = 0; fnIdx < 28; fnIdx++) {
+    // Activation
+    Serial.printf("Fonction %d -> on\n", fnIdx);
+    loco->fn[fnIdx] = on;
+    laBox.setFunction(loco, fnIdx);
+    delay(1000);
 
-  //   // Desactivation
-  //   Serial.printf("Fonction %d -> off\n", fnIdx);
-  //   loco->fn[fnIdx] = off;
-  //   laBox.setFunction(loco, fnIdx);
-  //   delay(1000);
-  // }
+    // Desactivation
+    Serial.printf("Fonction %d -> off\n", fnIdx);
+    loco->fn[fnIdx] = off;
+    laBox.setFunction(loco, fnIdx);
+    delay(1000);
+  }
 
   // Active les feux et le bruit de la locomotive
   fnIdx = 0;  // Fonction 0
