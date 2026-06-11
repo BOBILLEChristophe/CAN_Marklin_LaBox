@@ -4,20 +4,7 @@
 
   Christophe Bobille - Locoduino
 
-  v 0.3 - 08/12/23
-  v 0.4 - 09/12/23 - Optimisation de la fonction 0xFE
-  v 0.5 - 09/12/23 - Ajout de la reception de messages en provenance de la centrale LaBox.
-                     Pour ce test, c'est la mesure de courant qui a été choisie
-  v 0.5.2 - 09/12/23
-  v 0.5.3 - 10/12/23
-  v 0.5.4 - 10/12/23 : Add POWERMODE::OVERLOAD
-    /*******************************************************************************************************
-  v 0.6.0 - 11/12/23 : Presentation en classes et méthodes 
-                       Adoption d'un nouveau format de messages totalement incompatible avec les anciens
-  v 0.6.1 - 11/12/23 : Ajout du retour d'informations
-                       Ajouts de commandes dont la POM  case 0xF7:
-                                                        // WRITE CV on MAIN <w CAB CV VALUE>
-  v 0.6.2 - 21/02/24 : Modification de l'identifiant long   
+  v 0.7.0 - 11/06/26 : Modification de l'identifiant long   
 */
 
 #ifndef ARDUINO_ARCH_ESP32
