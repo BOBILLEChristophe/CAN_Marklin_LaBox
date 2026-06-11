@@ -1,6 +1,6 @@
 /*
 
-  Test de communication CXAN avec LaBox Locoduino
+  Test de communication CAN avec LaBox Locoduino
 
   Christophe Bobille - Locoduino
 
